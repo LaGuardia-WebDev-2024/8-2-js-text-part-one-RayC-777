@@ -16,6 +16,17 @@ draw = function(){
 
   //🎯New Text Code Should Go Here 🡻
 
+background(250,218,221);
+fill (144,173,255);
+textSize(50);
+text("My Favorite Foods!", 90, 60);
+
+textSize(25);
+text("- Empanadas \n- Burgers \n- Pancakes \n- Ceasar Salad \n- Calamari \n- Broccoli", 100, 120);
+
+
+
+
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
