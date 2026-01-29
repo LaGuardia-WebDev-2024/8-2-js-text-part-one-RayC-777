@@ -3,6 +3,13 @@ void setup(){
   size(600, 400); 
 }
 
+function setup() {
+  createCanvas(100, 100, WEBGL);
+  textFont(font);
+  textSize(32);
+  textAlign(CENTER, CENTER);
+}
+
 //🎯Variable Declarations Go Here
 
 
@@ -24,7 +31,13 @@ text("My Favorite Foods!", 90, 60);
 textSize(25);
 text("- Empanadas \n- Burgers \n- Pancakes \n- Ceasar Salad \n- Calamari \n- Broccoli", 100, 120);
 
-
+background(250,218,221);
+  
+rotateY(frameCount / 30);
+ 
+text("My Favorite Foods", 20, 80);
+   
+describe('The text "p5*js" written in white and spinning in 3D.');
 
 
 };
