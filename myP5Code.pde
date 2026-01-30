@@ -5,7 +5,7 @@ let angle = 0;
 void setup(){
   size(600, 400); 
 
-  frameRate (2)
+  frameRate (1)
 
   textSize(45);
  
@@ -27,15 +27,16 @@ draw = function(){
 background(250,218,221); 
   // Move origin to center of canvas
   translate(width / 4, height / 0);
+  translate(75,140)
   // Rotate based on frame count
   rotate(angle);
   // Draw text at new origin (3,3)
-  text("My Favorite Foods", 0, 0);
+  text("My Favorite Foods!", 150, 100);
   angle += 1; // Increment angle
 
   fill (144,173,255);
   textSize(25);
-  text("- Empanadas \n- Burgers \n- Pancakes \n- Ceasar Salad \n- Calamari \n- Broccoli", 100, 120);
+  text("- Empanadas🥟 \n- Burgers🍔 \n- (Fries to go with it🍟 :) \n- Pancakes🥞 \n- Ceasar Salad🥗 \n- Calamari🦑 \n- Broccoli🥦", 100, 120);
  
   
 };
